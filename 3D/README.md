@@ -7,11 +7,11 @@ The mat file of 3D PSF can be downloaded here: https://www.dropbox.com/sh/rx4hwu
 Place the the mat file in '3D/psfs' directory.
 
 # Contents of 3D PSF mat file
-psfs - 912x1368x4x49   # the four channels in order are R,G,G,B. This is the bayer splitting of the captured psf. Can disregard one of the Gs and use it as color PSF.
-drng - depth from mask in centimeters. Starts from 1 cm to 20cm.
-refDepth - Reference depth to which relative magnifications and transforms are calculated
-mags - relative magnification of PSF wrt PSF at refDepth
-transForm - relative affine (I think) between PSFs and PSF at refDepth.
+- psfs - 912x1368x4x49.  The four channels in order are R,G,G,B. This is the bayer splitting of the captured psf. Can disregard one of the Gs and use it as color PSF.
+- drng - depth from mask in centimeters. Starts from 1 cm to 20cm.
+- refDepth - Reference depth to which relative magnifications and transforms are calculated
+- mags - relative magnification of PSF wrt PSF at refDepth
+- transForm - relative affine (I think) between PSFs and PSF at refDepth.
 
 The mask to sensor distance of PhlatCam is about 2 mm.
 
