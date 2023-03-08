@@ -37,6 +37,7 @@ params = struct('gamm_TV', gamm_TV, ...
 [testFile,testCapDir] = deal('avgCap20.mat','cap\');
 frameImg = importdata([testCapDir, filesep, testFile]);
 
+% Skip the 2nd 'G' channel of bayer pattern
 Ichs = frameImg(:,:,[1,2,4]);
 
 outDir = [testCapDir, filesep, 'reconADMM_TV/'];
@@ -52,6 +53,7 @@ pfload = load([psfDir, filesep, psfFile]);
 psfs = pfload.psfs;
 drng = pfload.drng;
 
+% Skip the 2nd 'G' channel of bayer pattern
 psfs = psfs(:,:,[1,2,4],:);
 
 % idx = drng >= 3.5 & drng <= 10; %drng==5; % drng > 3.5 & drng < 8; %==20;
