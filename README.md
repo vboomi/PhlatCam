@@ -1,7 +1,7 @@
 # PhlatCam
 Codebase for PhlatCam.
 
-V. Boominathan, J. K. Adams, J. T. Robinson and A. Veeraraghavan, "PhlatCam: Designed Phase-Mask Based Thin Lensless Camera," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 7, pp. 1618-1629, 1 July 2020, doi: 10.1109/TPAMI.2020.2987489.
+[V. Boominathan](https://vivekboominathan.com/), J. K. Adams, J. T. Robinson and A. Veeraraghavan, "PhlatCam: Designed Phase-Mask Based Thin Lensless Camera," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 7, pp. 1618-1629, 1 July 2020, doi: 10.1109/TPAMI.2020.2987489.
 
 Free access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439257/
 
