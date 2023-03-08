@@ -1,3 +1,6 @@
+# About
+Reconstruct 3D image stack from a single capture.
+
 # 3D PSF
 The mat file of 3D PSF can be downloaded here: https://www.dropbox.com/sh/yu8rjsf8ckmnhky/AAAjQdquaD0lbMOR0WPIwyELa?dl=0
 
