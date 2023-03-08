@@ -2,10 +2,6 @@
 showFigs = 1;
 
 %% Reconstruction code
-% Set to working directory
-% protoDir = 'G:\My Drive\Research\Lensless\PhaseMask\BlkFlyS_20MP\Perlin12_rect\fixed_v2_2018_05_27\2019_08_12\';
-% protoPSFDir = 'F:\BoardLevel_PhlatScope\PSFs_bgSub\4D_hydra_depths\';
-% protoPSFDir = 'G:\My Drive\Research\Lensless\PhaseMask\BlkFlyS_20MP\Perlin12_rect\fixed_v2_2018_05_27\2019_07_26\calib\';
 psfExt = '.mat'; %  '.mat', '.tiff'
 capExt = '.mat'; % '.mat', '.tiff', '.avi' % For avi, select only one file
 
