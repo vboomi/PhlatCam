@@ -14,6 +14,20 @@ Free access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439257/
 
 Instructions and details can be found inside each of the sub-directory.
 
+# Data
+- **3D psf** stack can be downloaded from here: https://www.dropbox.com/sh/rx4hwuygm3ndv7a/AAB6c6DG28txWrKNKfLAH9fTa?dl=0. Contents of the mat file are:
+  - psfs - 912x1368x4x49. The four channels in order are R,G,G,B. This is the bayer splitting of the captured psf. Can disregard one of the Gs and use it as color PSF.
+  - drng - depth from mask in centimeters. Starts from 1 cm to 20cm.
+  - refDepth - Reference depth to which relative magnifications and transforms are calculated
+  - mags - relative magnification of PSF wrt PSF at refDepth
+  - transForm - relative affine (I think) between PSFs and PSF at refDepth.
+  
+- Phase mask design used in the paper can be downloaded here: https://www.dropbox.com/s/4mjzidwtfjhdy9a/PhlatCam_used_mask.zip?dl=0.
+  - 'phHeight_perlin12_1.00umMaxH_2.00um_7.01mm_1869um_q200nm_lam532_as.png' is the height map stored as an image file. 255 corresponds to 1um.
+  - 'phMaskDes_perlin12_2.00um_7.01mm_1869um_lam532_as.mat' has all the data regarding the same mask
+  
+Links to download sample lensless captures can be found in individual directories.
+
 # Citation
 
 If you use this code, please cite our work:
