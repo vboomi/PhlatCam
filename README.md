@@ -1,7 +1,7 @@
 # PhlatCam
 Codebase for PhlatCam.
 
-[V. Boominathan](https://vivekboominathan.com/), J. K. Adams, J. T. Robinson and A. Veeraraghavan, "PhlatCam: Designed Phase-Mask Based Thin Lensless Camera," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 7, pp. 1618-1629, 1 July 2020, doi: 10.1109/TPAMI.2020.2987489.
+[V. Boominathan](https://vivekboominathan.com/), J. K. Adams, J. T. Robinson and A. Veeraraghavan, "PhlatCam: Designed Phase-Mask Based Thin Lensless Camera," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 42, no. 7, pp. 1618-1629, 1 July 2020. \[[paper](https://doi.org/10.1109/TPAMI.2020.2987489)\]
 
 Free access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439257/
 
@@ -42,3 +42,14 @@ If you use this code, please cite our work:
   pages={1618-1629},
   doi={10.1109/TPAMI.2020.2987489}}
 ```
+
+# Additional publications with this design
+
+J.K. Adams, D. Yan, J. Wu, V. Boominathan, et al. "In vivo lensless microscopy via a phase mask generating diffraction patterns with high-contrast contours." Nature Biomedical Engineering 6.5 (2022). \[[paper](https://doi.org/10.1038/s41551-022-00851-z)\]
+
+
+Khan, Salman Siddique, et al. "Flatnet: Towards photorealistic scene reconstruction from lensless measurements." IEEE Transactions on Pattern Analysis and Machine Intelligence 44.4 (2020). \[[paper](https://arxiv.org/abs/2010.15440)\]
+
+# Review article
+
+V. Boominathan, et al. "Recent advances in lensless imaging." Optica 9.1 (2022). \[[paper](https://doi.org/10.1364/OPTICA.431361)\]
