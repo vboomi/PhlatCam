@@ -45,10 +45,17 @@ If you use this code, please cite our work:
 
 # Additional publications with this design
 
+### Compact microscope:
+
+Wu, J., Chen, Y., Veeraraghavan, A. et al. "Mesoscopic calcium imaging in a head-unrestrained male non-human primate using a lensless microscope." Nature Communications (2024). \[[paper](https://doi.org/10.1038/s41467-024-45417-6)\]
+
 J.K. Adams, D. Yan, J. Wu, V. Boominathan, et al. "In vivo lensless microscopy via a phase mask generating diffraction patterns with high-contrast contours." Nature Biomedical Engineering 6.5 (2022). \[[paper](https://doi.org/10.1038/s41551-022-00851-z)\]
 
+### Deep learning reconstruction:
 
-Khan, Salman Siddique, et al. "Flatnet: Towards photorealistic scene reconstruction from lensless measurements." IEEE Transactions on Pattern Analysis and Machine Intelligence 44.4 (2020). \[[paper](https://arxiv.org/abs/2010.15440)\]
+Jimin Wu, Vivek Boominathan, Ashok Veeraraghavan, and Jacob T. Robinson, "Real-time, deep-learning aided lensless microscope," Biomed. Opt. Express (2023). \[[paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-14-8-4037)\]
+
+Khan, Salman Siddique, et al. "Flatnet: Towards photorealistic scene reconstruction from lensless measurements." IEEE Transactions on Pattern Analysis and Machine Intelligence 44.4 (2020). \[[paper](https://arxiv.org/abs/2010.15440)\] \[[project](https://siddiquesalman.github.io/flatnet/)\]
 
 # Review article
 
