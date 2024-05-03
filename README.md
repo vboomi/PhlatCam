@@ -55,7 +55,7 @@ J.K. Adams, D. Yan, J. Wu, V. Boominathan, et al. "In vivo lensless microscopy v
 
 Jimin Wu, Vivek Boominathan, Ashok Veeraraghavan, and Jacob T. Robinson, "Real-time, deep-learning aided lensless microscope," Biomed. Opt. Express (2023). \[[paper](https://opg.optica.org/boe/fulltext.cfm?uri=boe-14-8-4037)\]
 
-Khan, Salman Siddique, et al. "Flatnet: Towards photorealistic scene reconstruction from lensless measurements." IEEE Transactions on Pattern Analysis and Machine Intelligence 44.4 (2020). \[[paper](https://arxiv.org/abs/2010.15440)\] \[[project](https://siddiquesalman.github.io/flatnet/)\]
+S. S. Khan, V. Sundar, V. Boominathan, A. Veeraraghavan and K. Mitra, "FlatNet: Towards Photorealistic Scene Reconstruction From Lensless Measurements," in IEEE Transactions on Pattern Analysis and Machine Intelligence (2022) \[[paper](https://arxiv.org/abs/2010.15440)\] \[[project](https://siddiquesalman.github.io/flatnet/)\]
 
 # Review article
 
