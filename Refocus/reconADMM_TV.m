@@ -34,7 +34,7 @@ params = struct('gamm_TV', gamm_TV, ...
 
 %% Get capture file
 
-[testFile,testCapDir] = deal('avgCap20.mat','cap\');
+[testFile,testCapDir] = deal('avgCap20.mat','cap/');
 frameImg = importdata([testCapDir, filesep, testFile]);
 
 % Skip the 2nd 'G' channel of bayer pattern
@@ -45,7 +45,7 @@ mkdir(outDir)
 [~,testName] = fileparts(testFile);
 
 %% Get PSF and test image file names and directories
-[psfFile,psfDir] = deal('psfs_refocus.mat','psfs\');
+[psfFile,psfDir] = deal('psfs_refocus.mat','psfs/');
 
 % [psfFile,psfDir] = uigetfile([protoPSFDir, '\*.mat'], 'Select Test');
 pfload = load([psfDir, filesep, psfFile]);
@@ -281,7 +281,7 @@ for pp = 1:Nz
             + sum(abs(dyG_nxt(:))) + sum(abs(dxG_nxt(:))) + sum(abs(dyB_nxt(:))) + sum(abs(dxB_nxt(:))) );
         fobj(iter) = fdataFid(iter) + fregPen(iter);
         fobj_alt(iter) = fdataFid(iter) + gamm_TV * ( sum(abs(ZRdy_nxt(:))) + sum(abs(ZRdx_nxt(:))) ...
-            + sum(abs(ZGdy_nxt(:))) + sum(abs(ZGdx_nxt(:))) + sum(abs(ZBdy_nxt(:))) + sum(abs(ZBdx_nxt(:))) );;
+            + sum(abs(ZGdy_nxt(:))) + sum(abs(ZGdx_nxt(:))) + sum(abs(ZBdy_nxt(:))) + sum(abs(ZBdx_nxt(:))) );
 
         %% Residuals
 %         primal_res_Z(iter) = sqrt(norm(rpZRdy(:))^2 + norm(rpZRdx(:))^2 ...

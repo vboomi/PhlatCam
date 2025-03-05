@@ -4,7 +4,7 @@ Reconstruction refocus stack from single capture.
 # PSF Stack
 The refocus psf stack can be downloaded from here: https://www.dropbox.com/sh/rms5pamqomjbtgy/AAA_xgEQ9Phbv9FcJYRNnCTya?dl=0
 
-Place the the mat file in 'refocus/psfs' directory.
+Place the mat file in 'refocus/psfs' directory.
 
 # Contents of PSF stack mat file
 - psfs - 912x1368x4x3.  The four channels in order are R,G,G,B. This is the bayer splitting of the captured psf. Can disregard one of the Gs and use it as color PSF.

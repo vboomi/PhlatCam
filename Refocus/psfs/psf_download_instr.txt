@@ -1,0 +1,3 @@
+The refocus psf stack can be downloaded from here: https://www.dropbox.com/sh/rms5pamqomjbtgy/AAA_xgEQ9Phbv9FcJYRNnCTya?dl=0
+
+Place the mat file here in 'refocus/psfs' directory.

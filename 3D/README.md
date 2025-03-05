@@ -4,7 +4,7 @@ Reconstruct 3D image stack from a single capture.
 # 3D PSF
 The mat file of 3D PSF can be downloaded here: https://www.dropbox.com/sh/rx4hwuygm3ndv7a/AAB6c6DG28txWrKNKfLAH9fTa?dl=0
 
-Place the the mat file in '3D/psfs' directory.
+Place the mat file in '3D/psfs' directory.
 
 # Contents of 3D PSF mat file
 - psfs - 912x1368x4x49.  The four channels in order are R,G,G,B. This is the bayer splitting of the captured psf. Can disregard one of the Gs and use it as color PSF.

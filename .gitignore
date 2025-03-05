@@ -4,3 +4,5 @@ design/*.zip
 3D/cap/reconADMM*
 
 Refocus/psfs/*.mat
+
+.DS_Store
