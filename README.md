@@ -8,7 +8,7 @@ Free access: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7439257/
 # Contents and Instructions
 
 - ./design/ : Design of PhlatCam phase mask.
-- ./recon_simple/ : A simple single-step reconstruction code.
+- ./recon_simple/ : A simple single-step reconstruction code. (has psf included in the directory)
 - ./refocus/ : Reconstructing refocus stack from single lensless capture.
 - ./3D/ : Reconstructing 3D image from signle lensless capture.
 
