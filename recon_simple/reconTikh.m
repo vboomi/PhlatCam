@@ -14,7 +14,7 @@ gamm_l2 = 1000; %4000; %USAF - 500, Scene - 4000
 
 %% Get capture file
 
-[testFile,testCapDir] = deal('hold_tigerr.mat','cap\');
+[testFile,testCapDir] = deal('hold_tigerr.mat','cap/');
 frameImg = importdata([testCapDir, filesep, testFile]);
 
 Ichs = frameImg(:,:,[1,2,4]);
@@ -24,7 +24,7 @@ mkdir(outDir)
 [~,testName] = fileparts(testFile);
 
 %% Get PSF and test image file names and directories
-[psfFile,psfDir] = deal('psf_d20.mat','psfs\');
+[psfFile,psfDir] = deal('psf_d20.mat','psfs/');
 
 pfload = load([psfDir, filesep, psfFile]);
 psf = pfload.psf;
@@ -68,7 +68,7 @@ bB = b(:,:,3);
 
 %% Setup
 % RED
-psfR = psf(:,:,1,pp);
+psfR = psf(:,:,1);
 % Filter in fourier domain
 HsR = Fx(psfR);   %Compute 3D spectrum
 HsR_conj = conj(HsR);
@@ -79,7 +79,7 @@ HRadj = @(x) FiltX(HsR_conj,x);
 HtHR = abs(HsR.*HsR_conj);
 
 % GREEN
-psfG = psf(:,:,2,pp);
+psfG = psf(:,:,2);
 % Filter in fourier domain
 HsG = Fx(psfG);   %Compute 3D spectrum
 HsG_conj = conj(HsG);
@@ -90,7 +90,7 @@ HGadj = @(x) FiltX(HsG_conj,x);
 HtHG = abs(HsG.*HsG_conj);
 
 % BLUE
-psfB = psf(:,:,3,pp);
+psfB = psf(:,:,3);
 % Filter in fourier domain
 HsB = Fx(psfB);   %Compute 3D spectrum
 HsB_conj = conj(HsB);
@@ -123,4 +123,4 @@ Xt_nxt = single(Xt_nxt/maxVal);
 figure, imshow(Xt_nxt)
 
 %% Save
-imwrite(Xt_nxt,sprintf('%s/%s_%gl2_%02d.png',outDir,testName,gamm_l2,pp));
+imwrite(Xt_nxt,sprintf('%s/%s_%gl2.png',outDir,testName,gamm_l2));
